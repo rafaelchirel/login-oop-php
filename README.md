@@ -14,7 +14,7 @@ http://f570dc56ebf04d.16mb.com/login-poo-php/
 ```shell
 git clone https://github.com/rafaelchirel/login-oop-php.git
 ```
-- Copiar todo el archivo en la carpeta `'htdocs`, ubicada `xampp`.
+- Copiar todo el archivo en la carpeta `'htdocs`, ubicada en `xampp`.
 - Desde phpMyAdmin, importar base de datos (db), se encuentra en la carpeta `login-poo-php/db/login_poo.sql`.
 
 - Las credencias de la base de datos están en el archivo `/login-poo-php/clases/Conexion.class.php`
@@ -27,7 +27,7 @@ git clone https://github.com/rafaelchirel/login-oop-php.git
 
 **Usuario de prueba - Default**
 ```shell
-Email: admin@gmail.com;
+Email: admin@gmail.com
 Password: 123456
 ```
 
