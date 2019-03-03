@@ -20,7 +20,7 @@ git clone https://github.com/rafaelchirel/login-oop-php.git
 
 - Las credencias de la base de datos están en el archivo `/login-poo-php/clases/Conexion.class.php`
 ```php
-	DB_HOST = '127.0.0.1';
+	DB_HOST = 'localhost';
 	DB_USER = "root";
 	DB_PASS = "";
 	DB_NAME = 'login_poo';
