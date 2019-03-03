@@ -23,7 +23,7 @@
 				?>
 				<link rel="stylesheet" type="text/css" href="css/dashboard.css">
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-				<?
+				<?php
 			endif;
 		?>
 	</head>
@@ -43,16 +43,16 @@
 					    <a href="#"><i class="fa fa-linkedin"></i></a>  
 					    <a href="#"><i class="fa fa-facebook"></i></a> 
 					 </div>
-					 <p><button onclick="window.location.href='/login-poo-php/dashboard?logout=true'">Cerrar Sesion</button></p>
+					 <p><button onclick="window.location.href='/login-oop-php/dashboard?logout=true'">Cerrar Sesion</button></p>
 					</div>
-				<?
+				<?php
 			else:
 				?>
 					<div class="bg-danger text-center col-xs-6 col-xs-offset-3">
 						<b>¡Acceso Denegado!</b><br>
-						<a href="/login-poo-php/dashboard?logout=true" title="">LOGIN</a>
+						<a href="/login-oop-php/dashboard?logout=true" title="">LOGIN</a>
 					</div>
-				 <?
+				 <?php
 			endif;
 		?>
 

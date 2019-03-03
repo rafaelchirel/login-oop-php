@@ -6,13 +6,13 @@
 
 	if (isset($_POST['email']) && isset($_POST['password'])):
 
-		$email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_MAGIC_QUOTES);
+		$email    = filter_input(INPUT_POST, "email", FILTER_SANITIZE_MAGIC_QUOTES);
 		$password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_MAGIC_QUOTES);
 
 		$l = new Login;
 		$l->setEmail($email);
 		$l->setPassword($password);
-
+		
 		if($l->logar()):
 			header("Location: dashboard");
 		else:
@@ -32,7 +32,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Login-oops-php</title>
+	<title>Login-oop-php</title>
 	<meta name="author" content="Rafael Chirel">
 	<meta name="description" content="login-poo">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
